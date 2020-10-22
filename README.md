@@ -33,7 +33,7 @@ You might want to check the extensive [documentation]( https://docs.github.com/e
 We're now directly working on Master (or Main), it's often desired to separate Acceptance and Master. Make an extra branch and update the workflow. If you've updated the workflow, add some code to acceptance and push it, see if everything works as planned.
 
 ---
-# Exercise 5a:
+# Exercise 5:
 ### Update your Github Actions YAML file so that it triggers a test & build when a pull request is initiated from acceptance to master.
 Merging changes into master is often done via pull requests. On the enterprise Github account provided by Albert Heijn, you may set various branch policies. One of these policies is that pushing to master is not allowed. To merge changes into a protected master branch, you must set up a pull request with optional reviewers. Let's update our workflow so that the CI is triggered once we receive a pull request on master.
 
