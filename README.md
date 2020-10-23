@@ -18,7 +18,7 @@ This repository contains a sample Python based project. We've added a few tests 
 ---
 # Exercise 3:
 ### Write your first Github Actions Workflow file that runs pre-commit and pytest
-Now that you managed to run pre-commit and tests on your machine, it's time to set up a build in Github Actions. To create a workflow in Github Actions, go to the repository, click on Actions, click New Workflow and use the option to set up a workflow yourself. You will need to perform the same procedure as on your local machine (exercise 2), but this time in GitHub Actions. 
+Now that you managed to run pre-commit and tests on your machine, it's time to set up a build in Github Actions. To create a workflow in Github Actions, go to the repository, click on Actions, click New Workflow and use the option to set up a workflow yourself. You will need to perform the same procedure as on your local machine (exercise 2), but this time in GitHub Actions.
 
 <img src="static/github_workflow.png" height="200px">
 
@@ -38,4 +38,3 @@ We're now directly working on Master (or Main), it's often desired to separate A
 Merging changes into master is often done via pull requests. On the enterprise Github account provided by Albert Heijn, you may set various branch policies. One of these policies is that pushing to master is not allowed. To merge changes into a protected master branch, you must set up a pull request with optional reviewers. Let's update our workflow so that the CI is triggered once we receive a pull request on master.
 
 Once you've set this up. Merge your acceptance changes into master using a pull request and see if you can build your application.
-
